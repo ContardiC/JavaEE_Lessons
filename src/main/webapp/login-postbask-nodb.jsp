@@ -4,15 +4,15 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Login Postback - no database</title>
+<title>Login POST BACK - no database</title>
 </head>
 <body>
 	<%
 	String errMsg = null;
 	if (request.getMethod().equalsIgnoreCase("POST")) {
-		String username = request.getParameter("username");
+		String userName = request.getParameter("username");
 		String password = request.getParameter("password");
-		if (username.equals("admin") && password.equals("admin")) {
+		if (userName.equals("admin") && password.equals("admin")) {
 			out.println("Welcome " + username);
 			return;
 		} else {
@@ -21,7 +21,7 @@
 	}
 	%>
 	<form method="post">
-		<input type="text" name="username" required /> <br /> <input
+		<input type="text" name="userName" required /> <br /> <input
 			type="password" name="password" required /> </br>
 		<button type="submit">Login</button>
 		<%
