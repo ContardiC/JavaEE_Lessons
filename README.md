@@ -23,7 +23,7 @@ Questo progetto contiene lezioni, esempi di codice e guide per imparare Java EE.
 - Maven
 - MySQL (o MariaDB)
 - TomCat 
-- [GlassFish] (https://javaee.github.io/glassfish/download) 
+- [GlassFish](https://javaee.github.io/glassfish/download) 
 
 ## Prerequisiti
 
