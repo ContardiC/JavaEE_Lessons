@@ -21,7 +21,7 @@ Questo progetto contiene lezioni, esempi di codice e guide per imparare Java EE.
 
 - Java EE (JPA, EJB, JAX-RS, etc.)
 - Maven
-- MySQL (o MariaDB)
+- [MySQL](https://dev.mysql.com/downloads/mysql/)
 - [TomCat](https://tomcat.apache.org/) 
 - [GlassFish](https://javaee.github.io/glassfish/download) 
 
@@ -31,7 +31,9 @@ Questo progetto contiene lezioni, esempi di codice e guide per imparare Java EE.
 - Installazione di Java Development Kit (JDK)
 - Installazione di un IDE (ad esempio, Eclipse o IntelliJ IDEA)
 - Installazione di Maven
+- Installazione di un server web TomCat
 - Installazione di un server Java EE (ad esempio, GlassFish)
+- Installazione di un server MySQL
 
 ## Installazione
 
@@ -40,8 +42,8 @@ Questo progetto contiene lezioni, esempi di codice e guide per imparare Java EE.
 `git clone https://github.com/ContardiC/JavaEE_Lessons`
    
 2. Importa il progetto nel tuo IDE preferito.
-
-3. Configura il server Java EE (ad esempio, GlassFish) nel tuo IDE.
+3. Configura il server MySQL
+4. Configura il server Java EE (ad esempio, GlassFish) nel tuo IDE.
 
 ## Utilizzo
 
