@@ -1,4 +1,5 @@
-package spacecoding.it.bean;
+package bean;
+
 
 public class LoginBean {
 	private String userName;
@@ -12,5 +13,11 @@ public class LoginBean {
 	}
 	public boolean isValidUser() {
 		return this.userName.equals("admin") && this.password.equals("admin");
+	}
+	public String getUserName() {
+		return this.userName;
+	}
+	public String getPassword() {
+		return this.password;
 	}
 }
