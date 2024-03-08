@@ -21,7 +21,8 @@ Questo progetto contiene lezioni, esempi di codice e guide per imparare Java EE.
 
 - Java EE (JPA, EJB, JAX-RS, etc.)
 - Maven
-- MySQL (o un altro database relazionale)
+- MySQL (o MariaDB)
+- TomCat 
 - GlassFish (o un altro server Java EE)
 
 ## Prerequisiti
