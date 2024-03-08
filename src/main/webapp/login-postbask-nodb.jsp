@@ -13,7 +13,7 @@
 		String userName = request.getParameter("username");
 		String password = request.getParameter("password");
 		if (userName.equals("admin") && password.equals("admin")) {
-			out.println("Welcome " + username);
+			out.println("Welcome " + userName);
 			return;
 		} else {
 			errMsg = "Ops, Incorrect credentials ";
