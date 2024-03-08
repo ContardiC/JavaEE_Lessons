@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Login POST BACK - no database</title>
+<title>Login POST BACK - no database - with Bean</title>
 </head>
 <body>
 
