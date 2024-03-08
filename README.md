@@ -23,7 +23,7 @@ Questo progetto contiene lezioni, esempi di codice e guide per imparare Java EE.
 - Maven
 - [MySQL](https://dev.mysql.com/downloads/mysql/)
 - [TomCat](https://tomcat.apache.org/) 
-- [GlassFish](https://javaee.github.io/glassfish/download) Download la versione FullPlatform!!!
+- [GlassFish]([https://javaee.github.io/glassfish/download](https://projects.eclipse.org/projects/ee4j.glassfish/downloads)) Download la versione FullPlatform!!!
 
 ## Prerequisiti
 
