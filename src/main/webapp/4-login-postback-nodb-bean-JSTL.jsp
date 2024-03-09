@@ -28,7 +28,7 @@ and copy to WEB-INF/lib
 <c:set var="errMsg" value="${null}"/>
 <c:set var="displayForm" value="${true}"/>
 
-	<c:if test='${pageContext.request.method().equalsIgnoreCase("POST") && pageContext.request.getParameter("submit") != null}'/>
+	<c:if test='${"POST".equalsIgnoreCase(pageContext.request.method) && pageContext.request.getParameter("submit") != null}'>
 	
 	<!-- id="logicBean" ovvero il nome dell'oggetto della classe specificata in class -->
 	<jsp:useBean id='loginBean' class='bean.LoginBean'>
@@ -48,6 +48,7 @@ and copy to WEB-INF/lib
 			<c:set var="displayForm" value="${false }"/>
 		</c:otherwise>
 	</c:choose>
+	</c:if>
 
 	<c:if test="${errMsg!=null}">
 		<c:out value="${errMsg }"></c:out>
